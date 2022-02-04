@@ -1,0 +1,65 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204125856",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "task",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "percentCompleted",
+      "fieldType": "Long",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "100",
+      "fieldValidateRulesMin": "0"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Task entity.\\n@author The JHipster team.",
+  "jpaMetamodelFiltering": true,
+  "name": "Task",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "task",
+      "otherEntityRelationshipName": "dependents",
+      "relationshipName": "dependsOn",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "task",
+      "otherEntityRelationshipName": "dependsOn",
+      "relationshipName": "dependents",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "jobTitle",
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "task",
+      "ownerSide": false,
+      "relationshipName": "job",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

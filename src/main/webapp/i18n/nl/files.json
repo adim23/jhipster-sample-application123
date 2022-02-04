@@ -1,0 +1,34 @@
+{
+  "jhipsterSampleApplication123App": {
+    "files": {
+      "home": {
+        "title": "Files",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Files",
+        "createOrEditLabel": "Maak of wijzig een Files",
+        "notFound": "No Files found"
+      },
+      "created": "A new Files is created with identifier {{ param }}",
+      "updated": "A Files is updated with identifier {{ param }}",
+      "deleted": "A Files is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Files {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Files"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "filename": "Filename",
+      "fileType": "File Type",
+      "fileSize": "File Size",
+      "createDate": "Create Date",
+      "filePath": "File Path",
+      "version": "Version",
+      "mime": "Mime",
+      "parent": "Parent",
+      "createdBy": "Created By",
+      "children": "Children"
+    }
+  }
+}

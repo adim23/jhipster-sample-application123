@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplication123App": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Task",
+        "createOrEditLabel": "Vytvořit nebo upravit Task",
+        "notFound": "No Tasks found"
+      },
+      "created": "Byl vytvořen potomek entity Task s identifikátorem {{ param }}",
+      "updated": "Potomek entity Task s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Task s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "percentCompleted": "Percent Completed",
+      "dependsOn": "Depends On",
+      "dependents": "Dependents",
+      "job": "Job"
+    }
+  }
+}

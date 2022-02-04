@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Job",
+        "createOrEditLabel": "Maak of wijzig een Job",
+        "notFound": "No Jobs found"
+      },
+      "created": "A new Job is created with identifier {{ param }}",
+      "updated": "A Job is updated with identifier {{ param }}",
+      "deleted": "A Job is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Job {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "id": "ID",
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "task": "Task",
+      "employee": "Employee"
+    }
+  }
+}

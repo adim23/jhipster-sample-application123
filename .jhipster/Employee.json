@@ -1,0 +1,123 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204125858",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "employee",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"],
+      "javadoc": "The firstname attribute."
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fullName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "pattern"],
+      "fieldValidateRulesPattern": "^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,3})+$"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hireDateTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "zonedHireDateTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "hireDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "salary",
+      "fieldType": "Long",
+      "fieldValidateRules": ["min"],
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "commissionPct",
+      "fieldType": "Long",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "100",
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "duration",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "pict",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image",
+      "fieldValidateRules": ["maxbytes"],
+      "fieldValidateRulesMaxbytes": "20971520"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "cv",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "The Employee entity.",
+  "jpaMetamodelFiltering": true,
+  "name": "Employee",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "jobTitle",
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "employee",
+      "relationshipName": "job",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "fullName",
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "employees",
+      "relationshipName": "manager",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "javadoc": "Another side of the same relationship",
+      "otherEntityField": "departmentName",
+      "otherEntityName": "department",
+      "otherEntityRelationshipName": "employee",
+      "relationshipName": "department",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "fullName",
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "manager",
+      "relationshipName": "employees",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

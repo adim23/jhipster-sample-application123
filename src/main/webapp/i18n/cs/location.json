@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Location",
+        "createOrEditLabel": "Vytvořit nebo upravit Location",
+        "notFound": "No Locations found"
+      },
+      "created": "Byl vytvořen potomek entity Location s identifikátorem {{ param }}",
+      "updated": "Potomek entity Location s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Location s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "id": "ID",
+      "streetAddress": "Street Address",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

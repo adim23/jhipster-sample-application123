@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplication123App": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Country",
+        "createOrEditLabel": "Maak of wijzig een Country",
+        "notFound": "No Countries found"
+      },
+      "created": "A new Country is created with identifier {{ param }}",
+      "updated": "A Country is updated with identifier {{ param }}",
+      "deleted": "A Country is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Country {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "countryName": "Country Name",
+      "region": "Region"
+    }
+  }
+}

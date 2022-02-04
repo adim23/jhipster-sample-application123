@@ -1,0 +1,71 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204125857",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "files",
+  "fields": [
+    {
+      "fieldName": "uuid",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "filename",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileType",
+      "fieldType": "FileType",
+      "fieldValues": "FOLDER,FILE,LINK"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "filePath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mime",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Files",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "filename",
+      "otherEntityName": "files",
+      "otherEntityRelationshipName": "children",
+      "relationshipName": "parent",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "files",
+      "relationshipName": "createdBy",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "filename",
+      "otherEntityName": "files",
+      "otherEntityRelationshipName": "parent",
+      "relationshipName": "children",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

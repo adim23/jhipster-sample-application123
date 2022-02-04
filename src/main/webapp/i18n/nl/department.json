@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplication123App": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Department",
+        "createOrEditLabel": "Maak of wijzig een Department",
+        "notFound": "No Departments found"
+      },
+      "created": "A new Department is created with identifier {{ param }}",
+      "updated": "A Department is updated with identifier {{ param }}",
+      "deleted": "A Department is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Department {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

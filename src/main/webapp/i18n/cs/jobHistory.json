@@ -1,0 +1,29 @@
+{
+  "jhipsterSampleApplication123App": {
+    "jobHistory": {
+      "home": {
+        "title": "Job Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Job History",
+        "createOrEditLabel": "Vytvořit nebo upravit Job History",
+        "notFound": "No Job Histories found"
+      },
+      "created": "Byl vytvořen potomek entity Job History s identifikátorem {{ param }}",
+      "updated": "Potomek entity Job History s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Job History s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Job History {{ id }}?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

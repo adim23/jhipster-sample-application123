@@ -1,0 +1,55 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204125900",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "job_history",
+  "fields": [
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "Language",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "FRENCH,ENGLISH,SPANISH"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "JobHistory",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "jobTitle",
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "jobHistory",
+      "ownerSide": true,
+      "relationshipName": "job",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "departmentName",
+      "otherEntityName": "department",
+      "otherEntityRelationshipName": "jobHistory",
+      "ownerSide": true,
+      "relationshipName": "department",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "jobHistory",
+      "ownerSide": true,
+      "relationshipName": "employee",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

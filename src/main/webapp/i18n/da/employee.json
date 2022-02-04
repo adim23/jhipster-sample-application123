@@ -1,0 +1,45 @@
+{
+  "jhipsterSampleApplication123App": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Employee",
+        "createOrEditLabel": "Create or edit a Employee",
+        "notFound": "No Employees found"
+      },
+      "created": "A new Employee is created with identifier {{ param }}",
+      "updated": "A Employee is updated with identifier {{ param }}",
+      "deleted": "A Employee is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDateTime": "Hire Date Time",
+      "zonedHireDateTime": "Zoned Hire Date Time",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "duration": "Duration",
+      "pict": "Pict",
+      "comments": "Comments",
+      "cv": "Cv",
+      "active": "Active",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "employees": "Employees",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}
