@@ -1,0 +1,29 @@
+{
+  "jhipsterSampleApplication123App": {
+    "phones": {
+      "home": {
+        "title": "Phones",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Phones",
+        "createOrEditLabel": "Create or edit a Phones",
+        "notFound": "No Phones found"
+      },
+      "created": "A new Phones is created with identifier {{ param }}",
+      "updated": "A Phones is updated with identifier {{ param }}",
+      "deleted": "A Phones is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Phones {{ id }}?"
+      },
+      "detail": {
+        "title": "Phones"
+      },
+      "id": "ID",
+      "phone": "Phone",
+      "description": "Description",
+      "favourite": "Favourite",
+      "kind": "Kind",
+      "company": "Company",
+      "citizen": "Citizen"
+    }
+  }
+}

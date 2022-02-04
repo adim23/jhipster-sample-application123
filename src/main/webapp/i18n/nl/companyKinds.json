@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "companyKinds": {
+      "home": {
+        "title": "Company Kinds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Company Kinds",
+        "createOrEditLabel": "Maak of wijzig een Company Kinds",
+        "notFound": "No Company Kinds found"
+      },
+      "created": "A new Company Kinds is created with identifier {{ param }}",
+      "updated": "A Company Kinds is updated with identifier {{ param }}",
+      "deleted": "A Company Kinds is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Company Kinds {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Company Kinds"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

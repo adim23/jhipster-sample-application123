@@ -1,0 +1,21 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130330",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "codes",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Codes",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

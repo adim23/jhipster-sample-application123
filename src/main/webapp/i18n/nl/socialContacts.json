@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "socialContacts": {
+      "home": {
+        "title": "Social Contacts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Social Contacts",
+        "createOrEditLabel": "Maak of wijzig een Social Contacts",
+        "notFound": "No Social Contacts found"
+      },
+      "created": "A new Social Contacts is created with identifier {{ param }}",
+      "updated": "A Social Contacts is updated with identifier {{ param }}",
+      "deleted": "A Social Contacts is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Social Contacts {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Social Contacts"
+      },
+      "id": "ID",
+      "name": "Name",
+      "favored": "Favored",
+      "social": "Social",
+      "kind": "Kind",
+      "citizen": "Citizen"
+    }
+  }
+}

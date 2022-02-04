@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "origins": {
+      "home": {
+        "title": "Origins",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Origins",
+        "createOrEditLabel": "Maak of wijzig een Origins",
+        "notFound": "No Origins found"
+      },
+      "created": "A new Origins is created with identifier {{ param }}",
+      "updated": "A Origins is updated with identifier {{ param }}",
+      "deleted": "A Origins is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Origins {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Origins"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

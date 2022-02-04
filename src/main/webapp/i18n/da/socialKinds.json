@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplication123App": {
+    "socialKinds": {
+      "home": {
+        "title": "Social Kinds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Social Kinds",
+        "createOrEditLabel": "Create or edit a Social Kinds",
+        "notFound": "No Social Kinds found"
+      },
+      "created": "A new Social Kinds is created with identifier {{ param }}",
+      "updated": "A Social Kinds is updated with identifier {{ param }}",
+      "deleted": "A Social Kinds is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Social Kinds {{ id }}?"
+      },
+      "detail": {
+        "title": "Social Kinds"
+      },
+      "id": "ID",
+      "code": "Code",
+      "name": "Name",
+      "call": "Call"
+    }
+  }
+}

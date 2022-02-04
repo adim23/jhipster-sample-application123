@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication123App": {
+    "countries": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Countries",
+        "createOrEditLabel": "Vytvořit nebo upravit Countries",
+        "notFound": "No Countries found"
+      },
+      "created": "Byl vytvořen potomek entity Countries s identifikátorem {{ param }}",
+      "updated": "Potomek entity Countries s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Countries s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Countries {{ id }}?"
+      },
+      "detail": {
+        "title": "Countries"
+      },
+      "id": "ID",
+      "name": "Name",
+      "iso": "Iso",
+      "language": "Language",
+      "lang": "Lang"
+    }
+  }
+}

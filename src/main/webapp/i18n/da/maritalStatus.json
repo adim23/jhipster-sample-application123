@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "maritalStatus": {
+      "home": {
+        "title": "Marital Statuses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Marital Status",
+        "createOrEditLabel": "Create or edit a Marital Status",
+        "notFound": "No Marital Statuses found"
+      },
+      "created": "A new Marital Status is created with identifier {{ param }}",
+      "updated": "A Marital Status is updated with identifier {{ param }}",
+      "deleted": "A Marital Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Marital Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Marital Status"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

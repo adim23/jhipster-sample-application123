@@ -1,0 +1,40 @@
+{
+  "jhipsterSampleApplication123App": {
+    "addresses": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Addresses",
+        "createOrEditLabel": "Vytvořit nebo upravit Addresses",
+        "notFound": "No Addresses found"
+      },
+      "created": "Byl vytvořen potomek entity Addresses s identifikátorem {{ param }}",
+      "updated": "Potomek entity Addresses s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Addresses s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Addresses {{ id }}?"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "id": "ID",
+      "address": "Address",
+      "addressNo": "Address No",
+      "zipCode": "Zip Code",
+      "prosfLetter": "Prosf Letter",
+      "nameLetter": "Name Letter",
+      "letterClose": "Letter Close",
+      "firstLabel": "First Label",
+      "secondLabel": "Second Label",
+      "thirdLabel": "Third Label",
+      "fourthLabel": "Fourth Label",
+      "fifthLabel": "Fifth Label",
+      "favourite": "Favourite",
+      "country": "Country",
+      "kind": "Kind",
+      "region": "Region",
+      "company": "Company",
+      "citizen": "Citizen"
+    }
+  }
+}

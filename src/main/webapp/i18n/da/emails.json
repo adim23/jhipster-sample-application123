@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "emails": {
+      "home": {
+        "title": "Emails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Emails",
+        "createOrEditLabel": "Create or edit a Emails",
+        "notFound": "No Emails found"
+      },
+      "created": "A new Emails is created with identifier {{ param }}",
+      "updated": "A Emails is updated with identifier {{ param }}",
+      "deleted": "A Emails is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Emails {{ id }}?"
+      },
+      "detail": {
+        "title": "Emails"
+      },
+      "id": "ID",
+      "email": "Email",
+      "description": "Description",
+      "favourite": "Favourite",
+      "kind": "Kind",
+      "citizen": "Citizen"
+    }
+  }
+}

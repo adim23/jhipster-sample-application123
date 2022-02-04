@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Citizens.
+    -->
+    <changeSet id="20220204130335-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="folder_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__folder_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="citizen_folders"/>
+
+        <addForeignKeyConstraint baseColumnNames="company_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__company_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="companies"/>
+
+        <addForeignKeyConstraint baseColumnNames="marital_status_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__marital_status_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="marital_status"/>
+
+        <addForeignKeyConstraint baseColumnNames="team_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__team_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="teams"/>
+
+        <addForeignKeyConstraint baseColumnNames="code_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__code_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="codes"/>
+
+        <addForeignKeyConstraint baseColumnNames="origin_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__origin_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="origins"/>
+
+        <addForeignKeyConstraint baseColumnNames="job_id"
+                                 baseTableName="citizens"
+                                 constraintName="fk_citizens__job_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jobs"/>
+    </changeSet>
+</databaseChangeLog>

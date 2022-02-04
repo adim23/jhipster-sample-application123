@@ -1,0 +1,40 @@
+{
+  "jhipsterSampleApplication123App": {
+    "addresses": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Addresses",
+        "createOrEditLabel": "Maak of wijzig een Addresses",
+        "notFound": "No Addresses found"
+      },
+      "created": "A new Addresses is created with identifier {{ param }}",
+      "updated": "A Addresses is updated with identifier {{ param }}",
+      "deleted": "A Addresses is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Addresses {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "id": "ID",
+      "address": "Address",
+      "addressNo": "Address No",
+      "zipCode": "Zip Code",
+      "prosfLetter": "Prosf Letter",
+      "nameLetter": "Name Letter",
+      "letterClose": "Letter Close",
+      "firstLabel": "First Label",
+      "secondLabel": "Second Label",
+      "thirdLabel": "Third Label",
+      "fourthLabel": "Fourth Label",
+      "fifthLabel": "Fifth Label",
+      "favourite": "Favourite",
+      "country": "Country",
+      "kind": "Kind",
+      "region": "Region",
+      "company": "Company",
+      "citizen": "Citizen"
+    }
+  }
+}

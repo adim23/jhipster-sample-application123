@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizensRelations": {
+      "home": {
+        "title": "Citizens Relations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Citizens Relations",
+        "createOrEditLabel": "Vytvořit nebo upravit Citizens Relations",
+        "notFound": "No Citizens Relations found"
+      },
+      "created": "Byl vytvořen potomek entity Citizens Relations s identifikátorem {{ param }}",
+      "updated": "Potomek entity Citizens Relations s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Citizens Relations s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Citizens Relations {{ id }}?"
+      },
+      "detail": {
+        "title": "Citizens Relations"
+      },
+      "id": "ID",
+      "name": "Name",
+      "citizen": "Citizen"
+    }
+  }
+}

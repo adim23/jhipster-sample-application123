@@ -48,6 +48,35 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.Jobs.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Countries.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Regions.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Cities.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ZipCodes.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Addresses.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Phones.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Emails.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.PhoneTypes.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ContactTypes.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.SocialKinds.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.SocialContacts.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.CompanyKinds.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Companies.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Companies.class.getName() + ".phones");
+            createCache(cm, com.mycompany.myapp.domain.Companies.class.getName() + ".addresses");
+            createCache(cm, com.mycompany.myapp.domain.Codes.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Teams.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Origins.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.CitizenFolders.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.MaritalStatus.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Citizens.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Citizens.class.getName() + ".phones");
+            createCache(cm, com.mycompany.myapp.domain.Citizens.class.getName() + ".addresses");
+            createCache(cm, com.mycompany.myapp.domain.Citizens.class.getName() + ".socials");
+            createCache(cm, com.mycompany.myapp.domain.Citizens.class.getName() + ".emails");
+            createCache(cm, com.mycompany.myapp.domain.Citizens.class.getName() + ".relations");
+            createCache(cm, com.mycompany.myapp.domain.CitizensRelations.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.CitizensMeetings.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

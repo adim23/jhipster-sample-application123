@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizensMeetings": {
+      "home": {
+        "title": "Citizens Meetings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Citizens Meetings",
+        "createOrEditLabel": "Create or edit a Citizens Meetings",
+        "notFound": "No Citizens Meetings found"
+      },
+      "created": "A new Citizens Meetings is created with identifier {{ param }}",
+      "updated": "A Citizens Meetings is updated with identifier {{ param }}",
+      "deleted": "A Citizens Meetings is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Citizens Meetings {{ id }}?"
+      },
+      "detail": {
+        "title": "Citizens Meetings"
+      },
+      "id": "ID",
+      "meetDate": "Meet Date",
+      "agenda": "Agenda",
+      "comments": "Comments",
+      "amount": "Amount",
+      "quantity": "Quantity",
+      "status": "Status",
+      "flag": "Flag",
+      "citizen": "Citizen"
+    }
+  }
+}

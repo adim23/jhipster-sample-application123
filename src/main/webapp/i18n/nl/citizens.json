@@ -1,0 +1,46 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizens": {
+      "home": {
+        "title": "Citizens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Citizens",
+        "createOrEditLabel": "Maak of wijzig een Citizens",
+        "notFound": "No Citizens found"
+      },
+      "created": "A new Citizens is created with identifier {{ param }}",
+      "updated": "A Citizens is updated with identifier {{ param }}",
+      "deleted": "A Citizens is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Citizens {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Citizens"
+      },
+      "id": "ID",
+      "title": "Title",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "fathersName": "Fathers Name",
+      "comments": "Comments",
+      "birthDate": "Birth Date",
+      "giortazi": "Giortazi",
+      "male": "Male",
+      "meLetter": "Me Letter",
+      "meLabel": "Me Label",
+      "image": "Image",
+      "folder": "Folder",
+      "company": "Company",
+      "maritalStatus": "Marital Status",
+      "team": "Team",
+      "code": "Code",
+      "origin": "Origin",
+      "job": "Job",
+      "phones": "Phones",
+      "addresses": "Addresses",
+      "social": "Social",
+      "emails": "Emails",
+      "relations": "Relations"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "contactTypes": {
+      "home": {
+        "title": "Contact Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Contact Types",
+        "createOrEditLabel": "Vytvořit nebo upravit Contact Types",
+        "notFound": "No Contact Types found"
+      },
+      "created": "Byl vytvořen potomek entity Contact Types s identifikátorem {{ param }}",
+      "updated": "Potomek entity Contact Types s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Contact Types s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Contact Types {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact Types"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

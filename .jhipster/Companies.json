@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130329",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "companies",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Companies",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "companyKinds",
+      "otherEntityRelationshipName": "companies",
+      "relationshipName": "kind",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "phones",
+      "otherEntityRelationshipName": "company",
+      "relationshipName": "phones",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "addresses",
+      "otherEntityRelationshipName": "company",
+      "relationshipName": "addresses",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

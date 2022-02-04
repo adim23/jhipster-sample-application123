@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication123App": {
+    "companies": {
+      "home": {
+        "title": "Companies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Companies",
+        "createOrEditLabel": "Maak of wijzig een Companies",
+        "notFound": "No Companies found"
+      },
+      "created": "A new Companies is created with identifier {{ param }}",
+      "updated": "A Companies is updated with identifier {{ param }}",
+      "deleted": "A Companies is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Companies {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Companies"
+      },
+      "id": "ID",
+      "name": "Name",
+      "kind": "Kind",
+      "phones": "Phones",
+      "addresses": "Addresses"
+    }
+  }
+}

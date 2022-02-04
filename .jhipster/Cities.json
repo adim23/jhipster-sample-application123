@@ -1,0 +1,86 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130319",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cities",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "president",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "presidentsPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "secretary",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "secretarysPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "police",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "policesPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "doctor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "doctorsPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "teacher",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "teachersPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "priest",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "priestsPhone",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Cities",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "countries",
+      "otherEntityRelationshipName": "cities",
+      "relationshipName": "country",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "regions",
+      "otherEntityRelationshipName": "cities",
+      "relationshipName": "region",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "codes": {
+      "home": {
+        "title": "Codes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Codes",
+        "createOrEditLabel": "Vytvořit nebo upravit Codes",
+        "notFound": "No Codes found"
+      },
+      "created": "Byl vytvořen potomek entity Codes s identifikátorem {{ param }}",
+      "updated": "Potomek entity Codes s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Codes s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Codes {{ id }}?"
+      },
+      "detail": {
+        "title": "Codes"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

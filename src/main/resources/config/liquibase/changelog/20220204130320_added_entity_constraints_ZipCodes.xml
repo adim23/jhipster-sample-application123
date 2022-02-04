@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity ZipCodes.
+    -->
+    <changeSet id="20220204130320-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="country_id"
+                                 baseTableName="zip_codes"
+                                 constraintName="fk_zip_codes__country_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="countries"/>
+
+        <addForeignKeyConstraint baseColumnNames="region_id"
+                                 baseTableName="zip_codes"
+                                 constraintName="fk_zip_codes__region_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="regions"/>
+
+        <addForeignKeyConstraint baseColumnNames="city_id"
+                                 baseTableName="zip_codes"
+                                 constraintName="fk_zip_codes__city_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="cities"/>
+    </changeSet>
+</databaseChangeLog>

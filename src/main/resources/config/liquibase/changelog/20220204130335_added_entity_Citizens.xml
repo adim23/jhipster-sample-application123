@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Citizens.
+    -->
+    <changeSet id="20220204130335-1" author="jhipster">
+        <createTable tableName="citizens">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="title" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lastname" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="firstname" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="fathers_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="comments" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="birth_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="giortazi" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="male" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="me_letter" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="me_label" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="image" type="longblob">
+                <constraints nullable="true" />
+            </column>
+            <column name="image_content_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="folder_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="company_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="marital_status_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="team_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="origin_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="job_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20220204130335-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/citizens.csv"
+                  separator=";"
+                  tableName="citizens"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="title" type="string"/>
+            <column name="lastname" type="string"/>
+            <column name="firstname" type="string"/>
+            <column name="fathers_name" type="string"/>
+            <column name="comments" type="clob"/>
+            <column name="birth_date" type="date"/>
+            <column name="giortazi" type="string"/>
+            <column name="male" type="boolean"/>
+            <column name="me_letter" type="numeric"/>
+            <column name="me_label" type="numeric"/>
+            <column name="image" type="blob"/>
+            <column name="image_content_type" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

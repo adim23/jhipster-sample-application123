@@ -1,0 +1,46 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizens": {
+      "home": {
+        "title": "Citizens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Citizens",
+        "createOrEditLabel": "Vytvořit nebo upravit Citizens",
+        "notFound": "No Citizens found"
+      },
+      "created": "Byl vytvořen potomek entity Citizens s identifikátorem {{ param }}",
+      "updated": "Potomek entity Citizens s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Citizens s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Citizens {{ id }}?"
+      },
+      "detail": {
+        "title": "Citizens"
+      },
+      "id": "ID",
+      "title": "Title",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "fathersName": "Fathers Name",
+      "comments": "Comments",
+      "birthDate": "Birth Date",
+      "giortazi": "Giortazi",
+      "male": "Male",
+      "meLetter": "Me Letter",
+      "meLabel": "Me Label",
+      "image": "Image",
+      "folder": "Folder",
+      "company": "Company",
+      "maritalStatus": "Marital Status",
+      "team": "Team",
+      "code": "Code",
+      "origin": "Origin",
+      "job": "Job",
+      "phones": "Phones",
+      "addresses": "Addresses",
+      "social": "Social",
+      "emails": "Emails",
+      "relations": "Relations"
+    }
+  }
+}

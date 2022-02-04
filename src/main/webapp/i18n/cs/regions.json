@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplication123App": {
+    "regions": {
+      "home": {
+        "title": "Regions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Regions",
+        "createOrEditLabel": "Vytvořit nebo upravit Regions",
+        "notFound": "No Regions found"
+      },
+      "created": "Byl vytvořen potomek entity Regions s identifikátorem {{ param }}",
+      "updated": "Potomek entity Regions s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Regions s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Regions {{ id }}?"
+      },
+      "detail": {
+        "title": "Regions"
+      },
+      "id": "ID",
+      "name": "Name",
+      "country": "Country"
+    }
+  }
+}

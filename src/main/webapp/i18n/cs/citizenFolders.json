@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizenFolders": {
+      "home": {
+        "title": "Citizen Folders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Citizen Folders",
+        "createOrEditLabel": "Vytvořit nebo upravit Citizen Folders",
+        "notFound": "No Citizen Folders found"
+      },
+      "created": "Byl vytvořen potomek entity Citizen Folders s identifikátorem {{ param }}",
+      "updated": "Potomek entity Citizen Folders s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Citizen Folders s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Citizen Folders {{ id }}?"
+      },
+      "detail": {
+        "title": "Citizen Folders"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "special": "Special"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplication123App": {
+    "socialKinds": {
+      "home": {
+        "title": "Social Kinds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Social Kinds",
+        "createOrEditLabel": "Vytvořit nebo upravit Social Kinds",
+        "notFound": "No Social Kinds found"
+      },
+      "created": "Byl vytvořen potomek entity Social Kinds s identifikátorem {{ param }}",
+      "updated": "Potomek entity Social Kinds s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Social Kinds s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Social Kinds {{ id }}?"
+      },
+      "detail": {
+        "title": "Social Kinds"
+      },
+      "id": "ID",
+      "code": "Code",
+      "name": "Name",
+      "call": "Call"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "socialContacts": {
+      "home": {
+        "title": "Social Contacts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Social Contacts",
+        "createOrEditLabel": "Vytvořit nebo upravit Social Contacts",
+        "notFound": "No Social Contacts found"
+      },
+      "created": "Byl vytvořen potomek entity Social Contacts s identifikátorem {{ param }}",
+      "updated": "Potomek entity Social Contacts s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Social Contacts s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Social Contacts {{ id }}?"
+      },
+      "detail": {
+        "title": "Social Contacts"
+      },
+      "id": "ID",
+      "name": "Name",
+      "favored": "Favored",
+      "social": "Social",
+      "kind": "Kind",
+      "citizen": "Citizen"
+    }
+  }
+}

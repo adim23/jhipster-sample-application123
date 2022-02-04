@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "contactTypes": {
+      "home": {
+        "title": "Contact Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Contact Types",
+        "createOrEditLabel": "Create or edit a Contact Types",
+        "notFound": "No Contact Types found"
+      },
+      "created": "A new Contact Types is created with identifier {{ param }}",
+      "updated": "A Contact Types is updated with identifier {{ param }}",
+      "deleted": "A Contact Types is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Contact Types {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact Types"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

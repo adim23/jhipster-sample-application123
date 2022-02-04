@@ -1,0 +1,21 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130331",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "teams",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Teams",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

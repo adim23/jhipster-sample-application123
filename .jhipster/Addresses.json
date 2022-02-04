@@ -1,0 +1,99 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130321",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "addresses",
+  "fields": [
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zipCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prosfLetter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameLetter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "letterClose",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstLabel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "secondLabel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "thirdLabel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fourthLabel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fifthLabel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "favourite",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Addresses",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "countries",
+      "otherEntityRelationshipName": "addresses",
+      "relationshipName": "country",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "contactTypes",
+      "otherEntityRelationshipName": "addresses",
+      "relationshipName": "kind",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "regions",
+      "otherEntityRelationshipName": "addresses",
+      "relationshipName": "region",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "companies",
+      "otherEntityRelationshipName": "addresses",
+      "relationshipName": "company",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "citizens",
+      "otherEntityRelationshipName": "addresses",
+      "relationshipName": "citizen",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

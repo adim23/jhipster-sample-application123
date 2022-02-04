@@ -1,0 +1,38 @@
+{
+  "jhipsterSampleApplication123App": {
+    "cities": {
+      "home": {
+        "title": "Cities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Cities",
+        "createOrEditLabel": "Vytvořit nebo upravit Cities",
+        "notFound": "No Cities found"
+      },
+      "created": "Byl vytvořen potomek entity Cities s identifikátorem {{ param }}",
+      "updated": "Potomek entity Cities s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Cities s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Cities {{ id }}?"
+      },
+      "detail": {
+        "title": "Cities"
+      },
+      "id": "ID",
+      "name": "Name",
+      "president": "President",
+      "presidentsPhone": "Presidents Phone",
+      "secretary": "Secretary",
+      "secretarysPhone": "Secretarys Phone",
+      "police": "Police",
+      "policesPhone": "Polices Phone",
+      "doctor": "Doctor",
+      "doctorsPhone": "Doctors Phone",
+      "teacher": "Teacher",
+      "teachersPhone": "Teachers Phone",
+      "priest": "Priest",
+      "priestsPhone": "Priests Phone",
+      "country": "Country",
+      "region": "Region"
+    }
+  }
+}
