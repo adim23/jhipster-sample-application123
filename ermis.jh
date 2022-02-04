@@ -1,0 +1,191 @@
+entity Jobs {
+  name String required unique,
+  description String
+}
+
+entity Countries {
+  name String required unique,
+  iso String,
+  language String,
+  lang String
+} 
+
+entity Regions {
+  name String required
+}  
+
+entity Cities {
+  name String required,
+  president String,
+  presidentsPhone String,
+  secretary String,
+  secretarysPhone String,
+  police String,
+  policesPhone String,
+  doctor String,
+  doctorsPhone String,
+  teacher String,
+  teachersPhone String,
+  priest String,
+  priestsPhone String
+} 
+
+relationship ManyToOne {
+  Regions{country(name) required} to Countries,
+  Cities{country(name) required} to Countries,
+  Cities{region(name) required} to Regions
+}
+
+entity ZipCodes {
+  street String,
+  area String,
+  fromNumber String,
+  toNumber String
+} 
+
+entity Addresses {
+  address String,
+  addressNo String,
+  zipCode String,
+  prosfLetter String,
+  nameLetter String,
+  letterClose String,
+  firstLabel String,
+  secondLabel String,
+  thirdLabel String,
+  fourthLabel String,
+  fifthLabel String,
+  favourite Boolean
+}
+
+entity Phones {
+  phone String required,
+  description String,
+  favourite Boolean
+}
+
+entity Emails {
+  email String required,
+  description String,
+  favourite Boolean
+}
+
+entity PhoneTypes {
+  name String required /* Mobile, Main, Personal, Home, Work, Beeper, Fax, Other */
+}
+
+entity ContactTypes {
+  name String required /* Main, Home, Work, Family, Other */
+}
+
+relationship ManyToOne {
+  Addresses{country(name)} to Countries,  
+  Addresses{kind(name)} to ContactTypes,
+  Addresses{region(name)} to Regions
+  ZipCodes{country(name)} to Countries,
+  ZipCodes{region(name)} to Regions,
+  Phones{kind(name)} to PhoneTypes,
+  Emails{kind(name)} to ContactTypes,
+  ZipCodes{city(name)} to Cities
+}
+
+entity SocialKinds {
+  code String required unique, /* TWITTER, FACEBOOK, INSTAGRAM, TELEGRAM, DISCORD, OTHER */
+  name String required,
+  call String required
+}
+
+entity SocialContacts {
+  name String required,
+  favored Boolean
+}
+
+relationship ManyToOne {
+  SocialContacts{social(name)} to SocialKinds,
+  SocialContacts{kind(name)} to ContactTypes
+}
+
+entity CompanyKinds {
+  name String required unique /* Commercial, Organization, MKO, Goverment, Club */
+}
+
+entity Companies {
+  name String required
+}
+
+relationship ManyToOne {
+  Companies{kind(name)} to CompanyKinds,
+  Phones{company(name)} to Companies{phones},
+  Addresses{company(name)} to Companies{addresses}
+}
+
+entity Codes {
+  name String required unique
+}
+
+entity Teams {
+  name String required unique
+}
+
+entity Origins {
+  name String required unique
+}
+
+entity CitizenFolders {
+  name String required unique,
+  description String,
+  special Boolean required
+}
+
+entity MaritalStatus {
+  name String required unique /*SINGLE, MARRIED, DIVORCED, WIDOW, WIDOWER, INRELATION */
+}
+ 
+entity Citizens {
+  title String,
+  lastname String,
+  firstname String,
+  fathersName String,
+  comments TextBlob,
+  birthDate LocalDate,
+  giortazi String,
+  male Boolean,
+  meLetter Integer,
+  meLabel Integer,
+  image ImageBlob
+}
+
+entity CitizensRelations {
+  name String required unique
+}
+
+entity CitizensMeetings {
+  meetDate LocalDate required,
+  agenda String required,
+  comments TextBlob,
+  amount Float,
+  quantity Integer,
+  status String required, /* DONE, CANCELLED, POSTPONED */
+  flag Boolean required 
+}
+
+relationship ManyToOne {
+  Citizens{folder(name)} to CitizenFolders,    
+  Citizens{company(name)} to Companies,      
+  Citizens{maritalStatus(name)} to MaritalStatus,    
+  Citizens{team(name)} to Teams,    
+  Citizens{code(name)} to Codes,
+  Citizens{origin(name)} to Origins,
+  Citizens{job(name)} to Jobs,
+  Phones{citizen} to Citizens{phones},
+  Addresses{citizen} to Citizens{addresses},
+  CitizensMeetings{citizen} to Citizens,
+  SocialContacts{citizen} to Citizens{social},
+  Emails{citizen} to Citizens{emails},
+  CitizensRelations{citizen} to Citizens{relations},
+}
+
+paginate all with pagination
+service all with serviceImpl
+filter all
+
