@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "phoneTypes": {
+      "home": {
+        "title": "Phone Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Phone Types",
+        "createOrEditLabel": "Maak of wijzig een Phone Types",
+        "notFound": "No Phone Types found"
+      },
+      "created": "A new Phone Types is created with identifier {{ param }}",
+      "updated": "A Phone Types is updated with identifier {{ param }}",
+      "deleted": "A Phone Types is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Phone Types {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Phone Types"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

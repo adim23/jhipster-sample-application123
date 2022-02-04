@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication123App": {
+    "companies": {
+      "home": {
+        "title": "Companies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Companies",
+        "createOrEditLabel": "Vytvořit nebo upravit Companies",
+        "notFound": "No Companies found"
+      },
+      "created": "Byl vytvořen potomek entity Companies s identifikátorem {{ param }}",
+      "updated": "Potomek entity Companies s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Companies s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Companies {{ id }}?"
+      },
+      "detail": {
+        "title": "Companies"
+      },
+      "id": "ID",
+      "name": "Name",
+      "kind": "Kind",
+      "phones": "Phones",
+      "addresses": "Addresses"
+    }
+  }
+}

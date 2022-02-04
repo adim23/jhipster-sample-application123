@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130323",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "emails",
+  "fields": [
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "favourite",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Emails",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "contactTypes",
+      "otherEntityRelationshipName": "emails",
+      "relationshipName": "kind",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "citizens",
+      "otherEntityRelationshipName": "emails",
+      "relationshipName": "citizen",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

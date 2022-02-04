@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplication123App": {
+    "zipCodes": {
+      "home": {
+        "title": "Zip Codes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Zip Codes",
+        "createOrEditLabel": "Create or edit a Zip Codes",
+        "notFound": "No Zip Codes found"
+      },
+      "created": "A new Zip Codes is created with identifier {{ param }}",
+      "updated": "A Zip Codes is updated with identifier {{ param }}",
+      "deleted": "A Zip Codes is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Zip Codes {{ id }}?"
+      },
+      "detail": {
+        "title": "Zip Codes"
+      },
+      "id": "ID",
+      "street": "Street",
+      "area": "Area",
+      "fromNumber": "From Number",
+      "toNumber": "To Number",
+      "country": "Country",
+      "region": "Region",
+      "city": "City"
+    }
+  }
+}

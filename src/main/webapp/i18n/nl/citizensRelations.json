@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizensRelations": {
+      "home": {
+        "title": "Citizens Relations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Citizens Relations",
+        "createOrEditLabel": "Maak of wijzig een Citizens Relations",
+        "notFound": "No Citizens Relations found"
+      },
+      "created": "A new Citizens Relations is created with identifier {{ param }}",
+      "updated": "A Citizens Relations is updated with identifier {{ param }}",
+      "deleted": "A Citizens Relations is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Citizens Relations {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Citizens Relations"
+      },
+      "id": "ID",
+      "name": "Name",
+      "citizen": "Citizen"
+    }
+  }
+}

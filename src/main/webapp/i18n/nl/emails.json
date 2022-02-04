@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "emails": {
+      "home": {
+        "title": "Emails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Emails",
+        "createOrEditLabel": "Maak of wijzig een Emails",
+        "notFound": "No Emails found"
+      },
+      "created": "A new Emails is created with identifier {{ param }}",
+      "updated": "A Emails is updated with identifier {{ param }}",
+      "deleted": "A Emails is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Emails {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Emails"
+      },
+      "id": "ID",
+      "email": "Email",
+      "description": "Description",
+      "favourite": "Favourite",
+      "kind": "Kind",
+      "citizen": "Citizen"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "teams": {
+      "home": {
+        "title": "Teams",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Teams",
+        "createOrEditLabel": "Maak of wijzig een Teams",
+        "notFound": "No Teams found"
+      },
+      "created": "A new Teams is created with identifier {{ param }}",
+      "updated": "A Teams is updated with identifier {{ param }}",
+      "deleted": "A Teams is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Teams {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Teams"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

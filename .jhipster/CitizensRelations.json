@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130336",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "citizens_relations",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "CitizensRelations",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "citizens",
+      "otherEntityRelationshipName": "relations",
+      "relationshipName": "citizen",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

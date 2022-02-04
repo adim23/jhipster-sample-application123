@@ -1,0 +1,54 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130320",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "zip_codes",
+  "fields": [
+    {
+      "fieldName": "street",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "area",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fromNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "toNumber",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "ZipCodes",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "countries",
+      "otherEntityRelationshipName": "zipCodes",
+      "relationshipName": "country",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "regions",
+      "otherEntityRelationshipName": "zipCodes",
+      "relationshipName": "region",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "cities",
+      "otherEntityRelationshipName": "zipCodes",
+      "relationshipName": "city",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

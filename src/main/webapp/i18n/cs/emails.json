@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication123App": {
+    "emails": {
+      "home": {
+        "title": "Emails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Emails",
+        "createOrEditLabel": "Vytvořit nebo upravit Emails",
+        "notFound": "No Emails found"
+      },
+      "created": "Byl vytvořen potomek entity Emails s identifikátorem {{ param }}",
+      "updated": "Potomek entity Emails s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Emails s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Emails {{ id }}?"
+      },
+      "detail": {
+        "title": "Emails"
+      },
+      "id": "ID",
+      "email": "Email",
+      "description": "Description",
+      "favourite": "Favourite",
+      "kind": "Kind",
+      "citizen": "Citizen"
+    }
+  }
+}

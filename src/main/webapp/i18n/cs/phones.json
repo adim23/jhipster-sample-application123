@@ -1,0 +1,29 @@
+{
+  "jhipsterSampleApplication123App": {
+    "phones": {
+      "home": {
+        "title": "Phones",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Phones",
+        "createOrEditLabel": "Vytvořit nebo upravit Phones",
+        "notFound": "No Phones found"
+      },
+      "created": "Byl vytvořen potomek entity Phones s identifikátorem {{ param }}",
+      "updated": "Potomek entity Phones s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Phones s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Phones {{ id }}?"
+      },
+      "detail": {
+        "title": "Phones"
+      },
+      "id": "ID",
+      "phone": "Phone",
+      "description": "Description",
+      "favourite": "Favourite",
+      "kind": "Kind",
+      "company": "Company",
+      "citizen": "Citizen"
+    }
+  }
+}

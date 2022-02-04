@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplication123App": {
+    "codes": {
+      "home": {
+        "title": "Codes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Codes",
+        "createOrEditLabel": "Maak of wijzig een Codes",
+        "notFound": "No Codes found"
+      },
+      "created": "A new Codes is created with identifier {{ param }}",
+      "updated": "A Codes is updated with identifier {{ param }}",
+      "deleted": "A Codes is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Codes {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Codes"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

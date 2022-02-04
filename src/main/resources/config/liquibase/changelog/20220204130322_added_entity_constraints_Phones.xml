@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Phones.
+    -->
+    <changeSet id="20220204130322-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="kind_id"
+                                 baseTableName="phones"
+                                 constraintName="fk_phones__kind_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="phone_types"/>
+
+        <addForeignKeyConstraint baseColumnNames="company_id"
+                                 baseTableName="phones"
+                                 constraintName="fk_phones__company_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="companies"/>
+
+        <addForeignKeyConstraint baseColumnNames="citizen_id"
+                                 baseTableName="phones"
+                                 constraintName="fk_phones__citizen_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="citizens"/>
+    </changeSet>
+</databaseChangeLog>

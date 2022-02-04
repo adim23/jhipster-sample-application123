@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizenFolders": {
+      "home": {
+        "title": "Citizen Folders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Citizen Folders",
+        "createOrEditLabel": "Maak of wijzig een Citizen Folders",
+        "notFound": "No Citizen Folders found"
+      },
+      "created": "A new Citizen Folders is created with identifier {{ param }}",
+      "updated": "A Citizen Folders is updated with identifier {{ param }}",
+      "deleted": "A Citizen Folders is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Citizen Folders {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Citizen Folders"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "special": "Special"
+    }
+  }
+}

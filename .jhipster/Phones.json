@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130322",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "phones",
+  "fields": [
+    {
+      "fieldName": "phone",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "favourite",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Phones",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "phoneTypes",
+      "otherEntityRelationshipName": "phones",
+      "relationshipName": "kind",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "companies",
+      "otherEntityRelationshipName": "phones",
+      "relationshipName": "company",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "citizens",
+      "otherEntityRelationshipName": "phones",
+      "relationshipName": "citizen",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

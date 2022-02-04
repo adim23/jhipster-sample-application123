@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity SocialContacts.
+    -->
+    <changeSet id="20220204130327-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="social_id"
+                                 baseTableName="social_contacts"
+                                 constraintName="fk_social_contacts__social_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="social_kinds"/>
+
+        <addForeignKeyConstraint baseColumnNames="kind_id"
+                                 baseTableName="social_contacts"
+                                 constraintName="fk_social_contacts__kind_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contact_types"/>
+
+        <addForeignKeyConstraint baseColumnNames="citizen_id"
+                                 baseTableName="social_contacts"
+                                 constraintName="fk_social_contacts__citizen_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="citizens"/>
+    </changeSet>
+</databaseChangeLog>

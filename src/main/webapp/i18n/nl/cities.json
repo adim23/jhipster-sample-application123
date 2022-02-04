@@ -1,0 +1,38 @@
+{
+  "jhipsterSampleApplication123App": {
+    "cities": {
+      "home": {
+        "title": "Cities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Cities",
+        "createOrEditLabel": "Maak of wijzig een Cities",
+        "notFound": "No Cities found"
+      },
+      "created": "A new Cities is created with identifier {{ param }}",
+      "updated": "A Cities is updated with identifier {{ param }}",
+      "deleted": "A Cities is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Cities {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Cities"
+      },
+      "id": "ID",
+      "name": "Name",
+      "president": "President",
+      "presidentsPhone": "Presidents Phone",
+      "secretary": "Secretary",
+      "secretarysPhone": "Secretarys Phone",
+      "police": "Police",
+      "policesPhone": "Polices Phone",
+      "doctor": "Doctor",
+      "doctorsPhone": "Doctors Phone",
+      "teacher": "Teacher",
+      "teachersPhone": "Teachers Phone",
+      "priest": "Priest",
+      "priestsPhone": "Priests Phone",
+      "country": "Country",
+      "region": "Region"
+    }
+  }
+}

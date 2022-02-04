@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Cities.
+    -->
+    <changeSet id="20220204130319-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="country_id"
+                                 baseTableName="cities"
+                                 constraintName="fk_cities__country_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="countries"/>
+
+        <addForeignKeyConstraint baseColumnNames="region_id"
+                                 baseTableName="cities"
+                                 constraintName="fk_cities__region_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="regions"/>
+    </changeSet>
+</databaseChangeLog>

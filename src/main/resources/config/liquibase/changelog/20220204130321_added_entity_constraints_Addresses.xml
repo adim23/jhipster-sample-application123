@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Addresses.
+    -->
+    <changeSet id="20220204130321-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="country_id"
+                                 baseTableName="addresses"
+                                 constraintName="fk_addresses__country_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="countries"/>
+
+        <addForeignKeyConstraint baseColumnNames="kind_id"
+                                 baseTableName="addresses"
+                                 constraintName="fk_addresses__kind_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contact_types"/>
+
+        <addForeignKeyConstraint baseColumnNames="region_id"
+                                 baseTableName="addresses"
+                                 constraintName="fk_addresses__region_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="regions"/>
+
+        <addForeignKeyConstraint baseColumnNames="company_id"
+                                 baseTableName="addresses"
+                                 constraintName="fk_addresses__company_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="companies"/>
+
+        <addForeignKeyConstraint baseColumnNames="citizen_id"
+                                 baseTableName="addresses"
+                                 constraintName="fk_addresses__citizen_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="citizens"/>
+    </changeSet>
+</databaseChangeLog>

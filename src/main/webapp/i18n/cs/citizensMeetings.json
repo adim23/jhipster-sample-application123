@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplication123App": {
+    "citizensMeetings": {
+      "home": {
+        "title": "Citizens Meetings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Citizens Meetings",
+        "createOrEditLabel": "Vytvořit nebo upravit Citizens Meetings",
+        "notFound": "No Citizens Meetings found"
+      },
+      "created": "Byl vytvořen potomek entity Citizens Meetings s identifikátorem {{ param }}",
+      "updated": "Potomek entity Citizens Meetings s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Citizens Meetings s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Citizens Meetings {{ id }}?"
+      },
+      "detail": {
+        "title": "Citizens Meetings"
+      },
+      "id": "ID",
+      "meetDate": "Meet Date",
+      "agenda": "Agenda",
+      "comments": "Comments",
+      "amount": "Amount",
+      "quantity": "Quantity",
+      "status": "Status",
+      "flag": "Flag",
+      "citizen": "Citizen"
+    }
+  }
+}

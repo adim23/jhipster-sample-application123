@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplication123App": {
+    "jobs": {
+      "home": {
+        "title": "Jobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Jobs",
+        "createOrEditLabel": "Vytvořit nebo upravit Jobs",
+        "notFound": "No Jobs found"
+      },
+      "created": "Byl vytvořen potomek entity Jobs s identifikátorem {{ param }}",
+      "updated": "Potomek entity Jobs s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Jobs s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Jobs {{ id }}?"
+      },
+      "detail": {
+        "title": "Jobs"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

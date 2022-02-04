@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplication123App": {
+    "regions": {
+      "home": {
+        "title": "Regions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Regions",
+        "createOrEditLabel": "Create or edit a Regions",
+        "notFound": "No Regions found"
+      },
+      "created": "A new Regions is created with identifier {{ param }}",
+      "updated": "A Regions is updated with identifier {{ param }}",
+      "deleted": "A Regions is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Regions {{ id }}?"
+      },
+      "detail": {
+        "title": "Regions"
+      },
+      "id": "ID",
+      "name": "Name",
+      "country": "Country"
+    }
+  }
+}

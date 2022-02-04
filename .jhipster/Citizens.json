@@ -1,0 +1,142 @@
+{
+  "applications": "*",
+  "changelogDate": "20220204130335",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "citizens",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fathersName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "birthDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "giortazi",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "male",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "meLetter",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "meLabel",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Citizens",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "citizenFolders",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "folder",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "companies",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "company",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "maritalStatus",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "maritalStatus",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "teams",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "team",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "codes",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "code",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "origins",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "origin",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "jobs",
+      "otherEntityRelationshipName": "citizens",
+      "relationshipName": "job",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "phones",
+      "otherEntityRelationshipName": "citizen",
+      "relationshipName": "phones",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "addresses",
+      "otherEntityRelationshipName": "citizen",
+      "relationshipName": "addresses",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "socialContacts",
+      "otherEntityRelationshipName": "citizen",
+      "relationshipName": "social",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "emails",
+      "otherEntityRelationshipName": "citizen",
+      "relationshipName": "emails",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "citizensRelations",
+      "otherEntityRelationshipName": "citizen",
+      "relationshipName": "relations",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

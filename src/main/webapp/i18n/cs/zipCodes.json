@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplication123App": {
+    "zipCodes": {
+      "home": {
+        "title": "Zip Codes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Zip Codes",
+        "createOrEditLabel": "Vytvořit nebo upravit Zip Codes",
+        "notFound": "No Zip Codes found"
+      },
+      "created": "Byl vytvořen potomek entity Zip Codes s identifikátorem {{ param }}",
+      "updated": "Potomek entity Zip Codes s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Zip Codes s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Zip Codes {{ id }}?"
+      },
+      "detail": {
+        "title": "Zip Codes"
+      },
+      "id": "ID",
+      "street": "Street",
+      "area": "Area",
+      "fromNumber": "From Number",
+      "toNumber": "To Number",
+      "country": "Country",
+      "region": "Region",
+      "city": "City"
+    }
+  }
+}
